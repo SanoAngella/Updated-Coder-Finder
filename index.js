@@ -2,7 +2,7 @@ const express =require('express');
 const bodyParser= require('body-parser');
 const mongoose = require('mongoose');
 
-// Set up express app
+// Set up express 
 const app = express();
 
 //connect to mongodb
