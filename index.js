@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 // Set up express app
 const app = express();
 
-//connect to mongodb
+//connect to mongodb use your own credentials
 mongoose.connect('mongodb://localhost/Coder-Blooded');
 mongoose.Promise = global.Promise;
 
