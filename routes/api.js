@@ -2,7 +2,7 @@ const express =require('express');
 const router = express.Router();
 const Coder = require('../models/coder')
 
-// Get a list of coders from db
+// Get a list of coders from the db
 router.get('/coders', function(req, res, next) {
     // Coder.find({}).then(function(coders) {
     //     res.send(coders);
